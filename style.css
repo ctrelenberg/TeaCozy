@@ -1,3 +1,4 @@
+/* Global styling */
 html {
     font-family: Helvetica;
     font-size: 22px;
@@ -14,6 +15,7 @@ body {
     align-items: center;
 }
 
+/* Header styling */
 header {
     display: flex;
     width: 100%;
@@ -37,6 +39,7 @@ header a {
     padding: 20px;
 }
 
+/* Mission styling */
 #mission {
     background-image: url('img/img-mission-background.jpg');
     background-repeat: no-repeat;
@@ -63,15 +66,17 @@ header a {
     margin: 1%;
 }
 
+/* Featured teas styling */
 #featured {
     width: 1000px;
     margin: 20px;
 }
 
-.features {
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
 }
 
 .tea {
@@ -87,4 +92,31 @@ header a {
 .tea h4 {
     padding: 0;
     margin: 10px;
+}
+
+/* Locations styling */
+#locations {
+    background-image: url('./img/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    width: 1200px;
+    height: 500px;
+}
+
+#locations h2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.address {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: auto;
+    margin: 15px 20px 100px 20px;
 }
