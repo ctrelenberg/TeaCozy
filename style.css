@@ -120,3 +120,18 @@ header a {
     height: auto;
     margin: 15px 20px 100px 20px;
 }
+
+/* Details styling */
+#details {
+    height: 200px;
+}
+
+/* Footer styling */
+footer {
+    width: 100%;
+    text-align: left;
+}
+
+footer h5 {
+    margin-left: 20px;
+}
